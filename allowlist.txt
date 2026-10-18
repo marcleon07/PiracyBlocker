@@ -1,0 +1,48 @@
+# Sites that must NEVER be blocked - one domain per line. Lines starting with # are ignored.
+# Anything listed here (and all of its subdomains, e.g. news.mail.ru for mail.ru) is
+# skipped even if it appears in one of the blocklist*.txt files.
+# Add any other site he relies on so it can never be blocked by accident.
+
+# --- Russian search, mail and social networks ---
+yandex.ru
+ya.ru
+dzen.ru
+mail.ru
+rambler.ru
+vk.com
+vk.ru
+ok.ru
+
+# --- Messaging ---
+telegram.org
+t.me
+whatsapp.com
+
+# --- Government services ---
+gosuslugi.ru
+mos.ru
+nalog.gov.ru
+pochta.ru
+rzd.ru
+
+# --- Banks ---
+sberbank.ru
+sber.ru
+online.sberbank.ru
+tbank.ru
+vtb.ru
+alfabank.ru
+gazprombank.ru
+
+# --- Shopping, maps, jobs ---
+ozon.ru
+wildberries.ru
+avito.ru
+2gis.ru
+hh.ru
+
+# --- Video and films (legal) ---
+rutube.ru
+kinopoisk.ru
+ivi.ru
+okko.tv

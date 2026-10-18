@@ -1,0 +1,13 @@
+# Online block lists that are downloaded automatically (at startup and every day at 12:00).
+# One https:// address per line. Lines starting with # are ignored.
+# Plain domain lists, hosts-file lists and adblock lists all work.
+# Sites in allowlist.txt are never blocked, whatever these lists contain.
+
+# Piracy sites, maintained by The Block List Project (about 2,000 sites, updated regularly).
+https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt
+
+# Propaganda sites: there is no well-maintained public list for this, so the local file
+# blocklist-propaganda.txt is used. If you want to update it remotely without visiting his PC,
+# put your own list online (for example as a GitHub Gist, and use its "Raw" link) and add the
+# address here, without the # in front:
+# https://gist.githubusercontent.com/YOUR-NAME/xxxxxxxx/raw/propaganda.txt

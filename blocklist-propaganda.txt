@@ -1,0 +1,76 @@
+# Kremlin state media and pro-Kremlin disinformation sites - one domain per line.
+# Lines starting with # are ignored. The www. version is blocked automatically.
+#
+# Only propaganda outlets are listed here. Everyday Russian services (Yandex, VK, Mail.ru,
+# Gosuslugi, banks, shops, ...) are NOT blocked, and allowlist.txt protects them in case
+# one is ever added here by mistake.
+#
+# NOTE: the hosts file only blocks the exact name listed. Subdomains such as
+# de.rt.com have to be listed separately, which is why some sites appear several times.
+# After editing this list, run Block.bat again to apply the changes.
+
+# --- RT (Russia Today) ---
+rt.com
+russian.rt.com
+de.rt.com
+francais.rt.com
+arabic.rt.com
+actualidad.rt.com
+actualidad-rt.com
+rtd.rt.com
+rbth.com
+
+# --- Sputnik / RIA Novosti (Rossiya Segodnya) ---
+sputniknews.com
+sputnikglobe.com
+sputniknews.ru
+ria.ru
+ukraina.ru
+radiosputnik.ru
+
+# --- State TV channels and their streaming sites ---
+1tv.ru
+1tv.com
+smotrim.ru
+vesti.ru
+vgtrk.ru
+rtr-planeta.com
+ntv.ru
+ren.tv
+5-tv.ru
+tvzvezda.ru
+mir24.tv
+
+# --- State news agencies and newspapers ---
+tass.ru
+tass.com
+rg.ru
+iz.ru
+redstar.ru
+
+# --- Pro-Kremlin disinformation outlets ---
+tsargrad.tv
+news-front.su
+southfront.press
+southfront.org
+strategic-culture.su
+strategic-culture.org
+journal-neo.su
+journal-neo.org
+geopolitika.ru
+katehon.com
+rubaltic.ru
+eadaily.com
+regnum.ru
+globalresearch.ca
+
+# --- "Pravda" / Portal Kombat network of copy-paste propaganda sites ---
+news-pravda.com
+pravda-en.com
+pravda-de.com
+pravda-fr.com
+
+# --- Optional: strongly pro-Kremlin tabloids. Remove the # to block them too. ---
+# kp.ru
+# aif.ru
+# lenta.ru
